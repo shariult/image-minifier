@@ -1,0 +1,13 @@
+{
+  "name": "image-minifier",
+  "version": "1.0.0",
+  "description": "Image minifier and SVG sprite generator",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp && npx svg-sprite-generate -d ./dist -o ./dist/sprite.svg"
+  },
+  "author": "Md. Shariul Islam Tuhin",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
